@@ -1,0 +1,57 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.search-input {
+  padding: 12px;
+  font-size: 14px;
+  font-family: 'pokefont'; /* Use a common sans-serif font */
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  outline: none;
+  width: 250px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #00ff26; /* Match the focus color with the pagination buttons' active color */
+}
+
+.search-button {
+  margin-left: 8px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-family: 'pokefont'; /* Use a common sans-serif font */
+  background-color: #00ff26; /* Match the background color with the pagination buttons' active color */
+  color: #0c0303;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #2fb03e; /* Match the hover color with the pagination buttons' hover color */
+  }
+}
+
+.clear-button {
+  margin-left: 8px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-family: 'pokefont'; /* Use a common sans-serif font */
+  background-color: #00ff26; /* Match the background color with the pagination buttons' active color */
+  color: #0c0303;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #2fb03e; /* Match the hover color with the pagination buttons' hover color */
+  }
+}

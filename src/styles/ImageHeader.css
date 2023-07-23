@@ -1,0 +1,14 @@
+/* Header.css (create a new file named Header.css in the same folder as Header.js) */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10rem; /* Set the height of the header */
+    background-color: transparent;
+  }
+  
+  .logo {
+    max-width: 10rem; /* Set the maximum width of the logo image */
+  }
+  

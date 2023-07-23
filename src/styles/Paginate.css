@@ -1,0 +1,81 @@
+/* Pagination.css */
+
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 0 4px;
+  border: 2px solid #007bff; /* Blue border to match search bar */
+  border-radius: 20px; /* Rounded corners to match search bar */
+  background-color: #fff; /* White background */
+  color: #007bff; /* Blue text color to match search bar */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s; /* Include border-color in the transition */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+  }
+
+  /* Style the active page button */
+  &.active {
+    background-color: #00ff26; /* Green background for active page */
+    color: #0c0303; /* Dark text for active page */
+    border-color: #00ff26; /* Green border for active page */
+  }
+}
+
+/* Style for the box enclosing the page numbers */
+.pagination-page {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 4px;
+  border: 2px solid #007bff; /* Blue border to match search bar */
+  border-radius: 20px; /* Rounded corners to match search bar */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s; /* Include border-color in the transition */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+  }
+
+  /* Style the active page button */
+  &.active {
+    background-color: #00ff26; /* Green background for active page */
+    color: #0c0303; /* Dark text for active page */
+    border-color: #00ff26; /* Green border for active page */
+  }
+}
+
+.pagination-break {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 4px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #007bff; /* Blue color to match search bar */
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
